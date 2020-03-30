@@ -1,7 +1,7 @@
 {
   "name": "lab7",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is lab 7 application to request API",
   "main": "app.js",
   "scripts": {
     "test": "test"

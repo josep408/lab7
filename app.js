@@ -1,9 +1,9 @@
-var express = require("express");
-var app = express();
-app.set("view engine", "ejs");
+const express = require("express");
+const app = express();
+// app.set("view engine", "ejs");
 app.use(express.static("public")); 
 
-var request = require('request');
+const request = require('request');
 
 //routes
 app.get("/", async function(req, res){
