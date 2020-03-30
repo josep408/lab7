@@ -1,0 +1,20 @@
+<%- include ('templates/header'); -%>
+
+        <h1> Pixabay Search Results </h1>
+        
+        <form action="/results">
+            
+            Keyword: <input type="text" name="keyword">
+            <button> Search! </button>
+            
+        </form> <br>
+        
+        TODO: Display several images here!<br>
+        
+        <img src='<%= images.hits[0].largeImageURL.likes %>'  width='350'>
+         <img src='<%= images.hits[1].largeImageURL %>' width='350'>
+          <img src='<%= images.hits[2].largeImageURL %>' width='350'>
+           <img src='<%= images.hits[3].largeImageURL %>' width='350'>
+        
+
+<%- include ('templates/footer'); -%>
