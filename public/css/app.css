@@ -1,0 +1,80 @@
+.container{
+	background-color: black;
+	width: 2100px;
+}
+/*.text-center{
+	text-align: center;
+}
+*/
+.loading {
+  display: none;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.jumbotron {
+
+	color: darkblue;
+	background: lightgreen;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 200px;
+	width: auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.flex-item {
+	width: 30%;
+	margin: 10px;
+}
+
+.float{
+	float: left;
+}
+
+.pagination-bar{
+  display: absolute;
+  width: 98%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: brown;
+  
+}
+
+.pagination-bar a {
+    color: red;
+    padding: 8px 5px;
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+}
+
+#horizon {
+	width: 500px;
+	height: 250px;
+
+}
+
+#vertical{
+	width: 250px;
+	height: 500px;
+}
+
+.footer{
+	font-family: "Gill Sans", "Gill Sans MT", "Myraid Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	font-variant: normal;
+
+	font-size: 0.9em;
+	padding: 20px;
+	text-align: right;
+	text-decoration: underline;
+	border-top: 1px solid #ffffff;
+	background-color: #02ceb6;
+}
