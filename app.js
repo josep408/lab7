@@ -1,9 +1,9 @@
-const express = require("express");
-const app = express();
+var express = require("express");
+var app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public")); 
 
-const request = require('request');
+var request = require('request');
 
 //routes
 app.get("/", async function(req, res){
@@ -56,13 +56,13 @@ function getImages(keyword){
     
 }
 
-app.get('*', function(req, res){
+app.get('/error', function(req, res){
    res.render('error'); 
 });
 
 // server Listener <-- DO NOT UNCOMMENT -->
 // app.listen("8081","127.0.0.1", function(){
-// 	console.log("Express server is Running ...");
+// 	console.dir("Express server is Running ...");
 // });
 // starting server <-- do not uncomment -->
 
