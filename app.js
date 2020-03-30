@@ -31,7 +31,7 @@ function getImages(keyword){
     
     
     return new Promise( function(resolve, reject){
-        request('https://pixabay.com/api/?key=15451226-748d708b832ac6ef8a248a904&q='+keyword,
+        request('https://pixabay.com/api/?key=15451226-748d708b832ac6ef8a248a904'+keyword,
                  function (error, response, body) {
     
             if (!error && response.statusCode == 200  ) { // successful request
@@ -56,9 +56,6 @@ function getImages(keyword){
     
 }
 
-app.get('/error', function(req, res){
-   res.render('error'); 
-});
 
 // server Listener <-- DO NOT UNCOMMENT -->
 // app.listen("8081","127.0.0.1", function(){
